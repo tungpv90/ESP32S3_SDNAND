@@ -1,0 +1,6 @@
+tools/arduino-cli.exe
+tools/LICENSE.txt
+tools/sandbox*/
+build/
+*.pyc
+__pycache__/
