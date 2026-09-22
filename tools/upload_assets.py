@@ -39,7 +39,7 @@ CHUNK = 2048          # phai khop CHUNK_SIZE trong sketch
 BAUD = 921600
 ESPRESSIF_VID = 0x303A
 
-DEFAULT_SRC = r"E:\Mochi\Dasai_Mochi\emoji_dansai_LoaAi.me\demo_jieli\assets"
+DEFAULT_SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
 DEFAULT_DEST = "/assets"
 
 

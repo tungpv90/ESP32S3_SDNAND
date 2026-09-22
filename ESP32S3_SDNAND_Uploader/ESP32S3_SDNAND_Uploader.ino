@@ -55,7 +55,7 @@
 // Ep cung mot che do khi go loi:
 //   0 = tu do (4-bit -> 1-bit -> SPI)
 //   1 = chi SDIO 4-bit     2 = chi SDIO 1-bit     3 = chi SPI
-#define FORCE_MODE 0
+#define FORCE_MODE 2
 
 #define FW_VERSION "1.1.0"
 
@@ -439,17 +439,35 @@ static void cmdPut(const String &args) {
   ok(String("DONE ") + hex8(got));
 }
 
+// SD_MMC.begin(..., format_if_mount_failed = true) CHI format khi mount hong,
+// nen tren mot the dang chay tot no khong xoa gi ca. Vi vay o day xoa tay toan
+// bo goc the. Lay ten theo tung dot roi moi xoa: xoa ngay giua luc dang duyet
+// thu muc bang openNextFile() lam con tro duyet chay sai.
 static void cmdFormat() {
-  bool onebit = (String(gMode) == "SDIO-1bit");
-  SD_MMC.end();
-  SD.end();
-  gfs = nullptr;
-  SD_MMC.setPins(PIN_CLK, PIN_CMD, PIN_D0, PIN_D1, PIN_D2, PIN_D3);
-  if (SD_MMC.begin("/sdcard", onebit, true, SDMMC_KHZ, 8)) {
-    SD_MMC.end();
+  uint32_t removed = 0;
+  for (int pass = 0; pass < 64; pass++) {
+    String names[32];
+    bool   dirs[32];
+    int n = 0;
+    File d = gfs->open("/");
+    if (!d) { err("format: khong mo duoc goc the"); return; }
+    while (n < 32) {
+      File e = d.openNextFile();
+      if (!e) break;
+      names[n] = String(e.path());
+      dirs[n]  = e.isDirectory();
+      e.close();
+      n++;
+    }
+    d.close();
+    if (n == 0) break;
+    for (int i = 0; i < n; i++) {
+      if (dirs[i]) rmRecursive(names[i]);
+      else         gfs->remove(names[i]);
+      removed++;
+    }
   }
-  if (mountAny()) { checkLfn(); ok(String("FORMATTED ") + gMode); }
-  else err("format");
+  ok(String("FORMATTED ") + gMode + " wiped=" + String(removed));
 }
 
 static void dispatch(String line) {

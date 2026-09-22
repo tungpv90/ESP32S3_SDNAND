@@ -1,0 +1,111 @@
+{
+  "width": 96,
+  "height": 64,
+  "animations": [
+    {
+      "gesture": "BATNGO",
+      "name": "BATNGO",
+      "folder": "batngo",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "BOIROI",
+      "name": "BOIROI",
+      "folder": "boiroi",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "BUON",
+      "name": "BUON",
+      "folder": "buon",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "BUONNGU",
+      "name": "BUONNGU",
+      "folder": "buonngu",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "CUOILON",
+      "name": "CUOILON",
+      "folder": "cuoilon",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "GIANGIU",
+      "name": "GIANGIU",
+      "folder": "giangiu",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "HAIHUOC",
+      "name": "HAIHUOC",
+      "folder": "hai_huoc",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "HAIHUOC1",
+      "name": "HAIHUOC1",
+      "folder": "haihuoc",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "KHOC",
+      "name": "KHOC",
+      "folder": "khoc",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "NGAU",
+      "name": "NGAU",
+      "folder": "ngau",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "NGONGAN",
+      "name": "NGONGAN",
+      "folder": "ngongan",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "SOC",
+      "name": "SOC",
+      "folder": "soc",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "SUYNGHI",
+      "name": "SUYNGHI",
+      "folder": "suynghi",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "XAUHO",
+      "name": "XAUHO",
+      "folder": "xau-ho",
+      "fps": 10,
+      "loop": true
+    },
+    {
+      "gesture": "YEUTHUON",
+      "name": "YEUTHUON",
+      "folder": "yeuthuong",
+      "fps": 10,
+      "loop": true
+    }
+  ]
+}
