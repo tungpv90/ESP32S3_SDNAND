@@ -1,0 +1,528 @@
+{
+  "width": 96,
+  "height": 64,
+  "animations": [
+    {
+      "name": "ANGRYEXP",
+      "folder": "angry_explosion",
+      "fps": 30,
+      "loop": true,
+      "gesture": "ANGRYEXP"
+    },
+    {
+      "name": "ANGRYVEI",
+      "folder": "angry_vein",
+      "fps": 30,
+      "loop": true,
+      "gesture": "ANGRYVEI"
+    },
+    {
+      "name": "ANGRYVE1",
+      "folder": "angry_vein_2",
+      "fps": 30,
+      "loop": true,
+      "gesture": "ANGRYVE1"
+    },
+    {
+      "name": "BEEFOLLO",
+      "folder": "bee_follow",
+      "fps": 30,
+      "loop": true,
+      "gesture": "BEEFOLLO"
+    },
+    {
+      "name": "BLUEFLAM",
+      "folder": "blue_flame_ears",
+      "fps": 30,
+      "loop": true,
+      "gesture": "BLUEFLAM"
+    },
+    {
+      "name": "BLUEOUTL",
+      "folder": "blue_outline_eyes",
+      "fps": 30,
+      "loop": true,
+      "gesture": "BLUEOUTL"
+    },
+    {
+      "name": "BLUESPLA",
+      "folder": "blue_splash_1",
+      "fps": 30,
+      "loop": true,
+      "gesture": "BLUESPLA"
+    },
+    {
+      "name": "BLUESPL1",
+      "folder": "blue_splash_2",
+      "fps": 30,
+      "loop": true,
+      "gesture": "BLUESPL1"
+    },
+    {
+      "name": "COLORSHI",
+      "folder": "color_shift_eyes",
+      "fps": 30,
+      "loop": true,
+      "gesture": "COLORSHI"
+    },
+    {
+      "name": "COOLSUNG",
+      "folder": "cool_sunglasses",
+      "fps": 30,
+      "loop": true,
+      "gesture": "COOLSUNG"
+    },
+    {
+      "name": "CRYINGBL",
+      "folder": "crying_blue_tears",
+      "fps": 30,
+      "loop": true,
+      "gesture": "CRYINGBL"
+    },
+    {
+      "name": "CRYINGWA",
+      "folder": "crying_waterfall",
+      "fps": 30,
+      "loop": true,
+      "gesture": "CRYINGWA"
+    },
+    {
+      "name": "DARKHATS",
+      "folder": "dark_hat_sparkle",
+      "fps": 30,
+      "loop": true,
+      "gesture": "DARKHATS"
+    },
+    {
+      "name": "DASHTEXT",
+      "folder": "dash_text",
+      "fps": 30,
+      "loop": true,
+      "gesture": "DASHTEXT"
+    },
+    {
+      "name": "DIZZYSPI",
+      "folder": "dizzy_spiral",
+      "fps": 30,
+      "loop": true,
+      "gesture": "DIZZYSPI"
+    },
+    {
+      "name": "EMBARRAS",
+      "folder": "embarrassed_red_blush",
+      "fps": 30,
+      "loop": true,
+      "gesture": "EMBARRAS"
+    },
+    {
+      "name": "EQUALIZE",
+      "folder": "equalizer",
+      "fps": 30,
+      "loop": true,
+      "gesture": "EQUALIZE"
+    },
+    {
+      "name": "EXCLAIMT",
+      "folder": "exclaim_text",
+      "fps": 30,
+      "loop": true,
+      "gesture": "EXCLAIMT"
+    },
+    {
+      "name": "EYEBROWR",
+      "folder": "eyebrow_raise",
+      "fps": 30,
+      "loop": true,
+      "gesture": "EYEBROWR"
+    },
+    {
+      "name": "FIDGETLO",
+      "folder": "fidget_look",
+      "fps": 30,
+      "loop": true,
+      "gesture": "FIDGETLO"
+    },
+    {
+      "name": "FIREANGR",
+      "folder": "fire_angry",
+      "fps": 30,
+      "loop": true,
+      "gesture": "FIREANGR"
+    },
+    {
+      "name": "GLITCHSH",
+      "folder": "glitch_shocked",
+      "fps": 30,
+      "loop": true,
+      "gesture": "GLITCHSH"
+    },
+    {
+      "name": "GOLDENBA",
+      "folder": "golden_bar",
+      "fps": 30,
+      "loop": true,
+      "gesture": "GOLDENBA"
+    },
+    {
+      "name": "GOOFYDRO",
+      "folder": "goofy_drool",
+      "fps": 30,
+      "loop": true,
+      "gesture": "GOOFYDRO"
+    },
+    {
+      "name": "HANGINGR",
+      "folder": "hanging_ring",
+      "fps": 30,
+      "loop": true,
+      "gesture": "HANGINGR"
+    },
+    {
+      "name": "HAPPYBLU",
+      "folder": "happy_blush",
+      "fps": 30,
+      "loop": true,
+      "gesture": "HAPPYBLU"
+    },
+    {
+      "name": "HAPPYCLO",
+      "folder": "happy_closed_eyes",
+      "fps": 30,
+      "loop": true,
+      "gesture": "HAPPYCLO"
+    },
+    {
+      "name": "HEADLIGH",
+      "folder": "headlight_beams",
+      "fps": 30,
+      "loop": true,
+      "gesture": "HEADLIGH"
+    },
+    {
+      "name": "HEARTEYE",
+      "folder": "heart_eyes_kiss",
+      "fps": 30,
+      "loop": true,
+      "gesture": "HEARTEYE"
+    },
+    {
+      "name": "HOLOGRAM",
+      "folder": "hologram_logo",
+      "fps": 30,
+      "loop": true,
+      "gesture": "HOLOGRAM"
+    },
+    {
+      "name": "KNIFESLA",
+      "folder": "knife_slash",
+      "fps": 30,
+      "loop": true,
+      "gesture": "KNIFESLA"
+    },
+    {
+      "name": "LAUGHING",
+      "folder": "laughing_big",
+      "fps": 30,
+      "loop": true,
+      "gesture": "LAUGHING"
+    },
+    {
+      "name": "LAUGHIN1",
+      "folder": "laughing_xd",
+      "fps": 30,
+      "loop": true,
+      "gesture": "LAUGHIN1"
+    },
+    {
+      "name": "LIPSKISS",
+      "folder": "lips_kiss",
+      "fps": 30,
+      "loop": true,
+      "gesture": "LIPSKISS"
+    },
+    {
+      "name": "LOOKAROU",
+      "folder": "look_around",
+      "fps": 30,
+      "loop": true,
+      "gesture": "LOOKAROU"
+    },
+    {
+      "name": "LOVEHEAR",
+      "folder": "love_hearts",
+      "fps": 30,
+      "loop": true,
+      "gesture": "LOVEHEAR"
+    },
+    {
+      "name": "MOCHIDOC",
+      "folder": "mochi_doc_logo",
+      "fps": 30,
+      "loop": true,
+      "gesture": "MOCHIDOC"
+    },
+    {
+      "name": "MOCHILOG",
+      "folder": "mochi_logo",
+      "fps": 30,
+      "loop": true,
+      "gesture": "MOCHILOG"
+    },
+    {
+      "name": "MONSTERF",
+      "folder": "monster_fangs",
+      "fps": 30,
+      "loop": true,
+      "gesture": "MONSTERF"
+    },
+    {
+      "name": "OMAMORIK",
+      "folder": "omamori_keep_it_up",
+      "fps": 30,
+      "loop": true,
+      "gesture": "OMAMORIK"
+    },
+    {
+      "name": "PANICSWE",
+      "folder": "panic_sweat_shout",
+      "fps": 30,
+      "loop": true,
+      "gesture": "PANICSWE"
+    },
+    {
+      "name": "PINKTEAR",
+      "folder": "pink_tears_burst",
+      "fps": 30,
+      "loop": true,
+      "gesture": "PINKTEAR"
+    },
+    {
+      "name": "POLICESI",
+      "folder": "police_siren",
+      "fps": 30,
+      "loop": true,
+      "gesture": "POLICESI"
+    },
+    {
+      "name": "PONGGAME",
+      "folder": "pong_game",
+      "fps": 30,
+      "loop": true,
+      "gesture": "PONGGAME"
+    },
+    {
+      "name": "REDDEVIL",
+      "folder": "red_devil_eyes",
+      "fps": 30,
+      "loop": true,
+      "gesture": "REDDEVIL"
+    },
+    {
+      "name": "REDGLOWE",
+      "folder": "red_glow_eyes",
+      "fps": 30,
+      "loop": true,
+      "gesture": "REDGLOWE"
+    },
+    {
+      "name": "REDMONST",
+      "folder": "red_monster_roar",
+      "fps": 30,
+      "loop": true,
+      "gesture": "REDMONST"
+    },
+    {
+      "name": "SADCRY",
+      "folder": "sad_cry",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SADCRY"
+    },
+    {
+      "name": "SLEEPING",
+      "folder": "sleeping_snot_bubble",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SLEEPING"
+    },
+    {
+      "name": "SLEEPYSQ",
+      "folder": "sleepy_squint",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SLEEPYSQ"
+    },
+    {
+      "name": "SLEEPYWA",
+      "folder": "sleepy_wake",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SLEEPYWA"
+    },
+    {
+      "name": "SMUGCAT",
+      "folder": "smug_cat",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SMUGCAT"
+    },
+    {
+      "name": "SPACESHO",
+      "folder": "space_shooting_stars",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SPACESHO"
+    },
+    {
+      "name": "SPEEDOME",
+      "folder": "speedometer",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SPEEDOME"
+    },
+    {
+      "name": "SQUINTFL",
+      "folder": "squint_flat_eyes",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SQUINTFL"
+    },
+    {
+      "name": "SUSHI",
+      "folder": "sushi",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SUSHI"
+    },
+    {
+      "name": "SUSPICIO",
+      "folder": "suspicious_small_eyes",
+      "fps": 30,
+      "loop": true,
+      "gesture": "SUSPICIO"
+    },
+    {
+      "name": "TEARSSTR",
+      "folder": "tears_streaming",
+      "fps": 30,
+      "loop": true,
+      "gesture": "TEARSSTR"
+    },
+    {
+      "name": "TRAFFICL",
+      "folder": "traffic_light",
+      "fps": 30,
+      "loop": true,
+      "gesture": "TRAFFICL"
+    },
+    {
+      "name": "UWUBLUSH",
+      "folder": "uwu_blush",
+      "fps": 30,
+      "loop": true,
+      "gesture": "UWUBLUSH"
+    },
+    {
+      "name": "WHEELSPI",
+      "folder": "wheel_spin",
+      "fps": 30,
+      "loop": true,
+      "gesture": "WHEELSPI"
+    },
+    {
+      "name": "YAWN",
+      "folder": "yawn",
+      "fps": 30,
+      "loop": true,
+      "gesture": "YAWN"
+    }
+  ],
+  "gyro": [
+    {
+      "name": "HATSPARK",
+      "folder": "gyro/left/hat_sparkle",
+      "fps": 30,
+      "loop": false,
+      "group": "LEFT"
+    },
+    {
+      "name": "LOVE",
+      "folder": "gyro/left/love_hearts",
+      "fps": 30,
+      "loop": false,
+      "group": "LEFT"
+    },
+    {
+      "name": "GOLDBAR",
+      "folder": "gyro/right/golden_bar",
+      "fps": 30,
+      "loop": false,
+      "group": "RIGHT"
+    },
+    {
+      "name": "RING",
+      "folder": "gyro/right/hanging_ring",
+      "fps": 30,
+      "loop": false,
+      "group": "RIGHT"
+    },
+    {
+      "name": "FIRE",
+      "folder": "gyro/accel/fire_angry",
+      "fps": 30,
+      "loop": false,
+      "group": "ACCEL"
+    },
+    {
+      "name": "FLAMEEAR",
+      "folder": "gyro/accel/flame_ears",
+      "fps": 30,
+      "loop": false,
+      "group": "ACCEL"
+    },
+    {
+      "name": "TRAFFIC",
+      "folder": "gyro/brake/traffic_light",
+      "fps": 30,
+      "loop": false,
+      "group": "BRAKE"
+    },
+    {
+      "name": "SPLASH",
+      "folder": "gyro/brake/splash_hit",
+      "fps": 30,
+      "loop": false,
+      "group": "BRAKE"
+    },
+    {
+      "name": "EXCLAIM",
+      "folder": "gyro/bump/exclaim_text",
+      "fps": 30,
+      "loop": false,
+      "group": "BUMP"
+    },
+    {
+      "name": "CRYTEARS",
+      "folder": "gyro/bump/crying_tears",
+      "fps": 30,
+      "loop": false,
+      "group": "BUMP"
+    }
+  ],
+  "gyro_params": {
+    "FWD_AXIS": "-Y",
+    "REACT_COOLDOWN_MS": 30000
+  },
+  "startup": {
+    "name": "STARTUP",
+    "folder": "startup",
+    "fps": 30,
+    "loop": false
+  },
+  "default": {
+    "name": "DEFAULT",
+    "folder": "default",
+    "fps": 30,
+    "loop": true
+  }
+}
